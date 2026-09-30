@@ -1,4 +1,3 @@
-cat > Dockerfile << 'EOF'
 # Imagen base ligera con Nginx
 FROM nginx:alpine
 
@@ -10,4 +9,3 @@ EXPOSE 80
 
 # Comando para iniciar Nginx
 CMD ["nginx", "-g", "daemon off;"]
-EOF
