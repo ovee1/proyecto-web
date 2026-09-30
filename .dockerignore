@@ -1,0 +1,6 @@
+cat > .dockerignore << 'EOF'
+.git
+.gitignore
+README.md
+Jenkinsfile
+EOF
